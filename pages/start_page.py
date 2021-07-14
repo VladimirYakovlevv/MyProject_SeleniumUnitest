@@ -1,4 +1,4 @@
-class StartPage():
+class StartPage:
 
     def __init__(self, driver):
         self.driver = driver
@@ -14,3 +14,4 @@ class StartPage():
 
     def click_button_purchase_of_insurance(self):
         self.driver.find_element_by_id(self.purchase_of_insurance_button_id).click()
+
