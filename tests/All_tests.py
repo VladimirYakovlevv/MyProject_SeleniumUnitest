@@ -99,4 +99,4 @@ class PagesTests(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=r'C:your derectory\Logs'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=r':your derectory\Logs'))
