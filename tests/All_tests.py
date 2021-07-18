@@ -2,11 +2,11 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import unittest
-from project_demo.pages.DriversData import DriverData
-from project_demo.pages.login import Login
-from project_demo.pages.Start_Page import StartPage
-from project_demo.pages.CarData import CarData
-from project_demo.pages.PassedInsurance import PassedInsurance
+from pages.DriversData import DriverData
+from pages.login import Login
+from pages.Start_Page import StartPage
+from pages.CarData import CarData
+from pages.PassedInsurance import PassedInsurance
 
 
 import HtmlTestRunner
