@@ -99,4 +99,4 @@ class PagesTests(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=r'C:\Users\boban\PycharmProjects\Selenium\project_demo\Logs'))
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output=r'C:your derectory\Logs'))
