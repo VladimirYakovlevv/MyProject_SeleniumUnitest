@@ -1,6 +1,6 @@
 import time
 
-from project_demo.pages.AllData import AllData
+from pages.AllData import AllData
 
 
 class DriverData(AllData):
