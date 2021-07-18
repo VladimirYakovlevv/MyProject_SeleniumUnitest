@@ -15,3 +15,9 @@ class StartPage:
     def click_button_purchase_of_insurance(self):
         self.driver.find_element_by_id(self.purchase_of_insurance_button_id).click()
 
+    def start(self):
+        self.driver.get("https://www.clalbit.co.il")
+        self.click_button_menu()
+        self.click_button_car_insurance()
+        self.click_button_purchase_of_insurance()
+
